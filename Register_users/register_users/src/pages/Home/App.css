@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10rem;
+}
+
+h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 3rem;
+  border-radius: 1rem;
+  background-color: #2E2D4E;
+  max-width: 50%;
+  width: 40rem;
+  margin-bottom: 2rem;
+
+  & button {
+    border-radius: 3rem;
+    background-color: #8D8AE1;
+    height: 4rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 1.4rem;
+  }
+
+  & button:hover {
+    opacity: .8;
+  }
+
+  & input {
+    border: .1rem solid #48456C;
+    border-radius: 3rem;
+    height: 4rem;
+    background-color: #363653;
+    color: #FFF;
+    font-size: 1.6rem;
+    padding-left: 1rem;
+    outline: none;
+  }
+}
+
+.users {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2E2D4E;
+  margin: 1rem;
+  padding: 1rem;
+  width: 40rem;
+  border-radius: 1rem;
+
+  & p {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+
+  & span {
+    font-weight: normal;
+  }
+
+  & .delete-user-button { 
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  & .delete-user-button:hover {
+    opacity: .5;
+  }
+
+  & .delete-user-button img {
+    width: 3rem;
+    height: 3rem;
+  }
+}
